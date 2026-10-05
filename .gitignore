@@ -1,0 +1,50 @@
+# Requisitos previos
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.obj
+*.lib
+*.a
+*.ilk
+*.pdb
+*.exp
+*.idb
+
+# Archivos y carpetas específicos de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Carpetas de compilación
+Debug/
+Release/
+x64/
+x86/
+[Bb]uild/
+[Oo]bj/
+[Bb]in/
+
+# Archivos generados por CMake (si se llegara a usar)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
+*.swp
