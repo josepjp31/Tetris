@@ -1,12 +1,10 @@
 # Requisitos previos
 *.com
 *.class
-*.dll
 *.exe
 *.o
 *.so
 *.obj
-*.lib
 *.a
 *.ilk
 *.pdb
