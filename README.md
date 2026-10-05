@@ -92,8 +92,20 @@ Requirements: **Windows** and **Visual Studio 2022** (v143 toolset) with C++ des
 
 > **Dependencies:** the project links against `SDL2`, `SDL2_image`, `SDL2_ttf`, and `libpng`. This repository includes the headers, but not the `.lib` / `.dll` files (they are excluded by `.gitignore`). You must add them under `2. Platforms/0. Windows Desktop/extlibs/` (and copy the `.dll` files next to the executable) in order to compile.
 
-## Credits
+## Credits and third-party licenses
 
 - Assignment and graphics library (`Graphic Lib`, sprites, and font): material from the *Metodologia de la Programació* course, UAB.
 - Game logic: Josep Montoro Pascual and Alejandro Zorrilla Bejarano
 - Graphics and audio based on [SDL2](https://www.libsdl.org/).
+
+  This project includes or links against third-party software, each under its own license:
+
+| Component | Author | License |
+|---|---|---|
+| [NFont](https://github.com/grimfang4/nfont) v5.1.0 | Jonathan Dearborn | MIT |
+| [SDL_FontCache](https://github.com/grimfang4/SDL_FontCache) v0.10.0 | Jonathan Dearborn | MIT |
+| [SDL2](https://www.libsdl.org/), SDL2_image, SDL2_ttf | SDL contributors | zlib |
+| [libpng](http://www.libpng.org/) | libpng contributors | libpng License |
+| FreeSans (`FreeSans.ttf`) | GNU FreeFont | GPL with font exception |
+
+The original copyright notices are preserved in the header of each file.
